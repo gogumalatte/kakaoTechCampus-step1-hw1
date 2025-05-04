@@ -3,7 +3,7 @@ package Level2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class myCalculator_lv2 {
+public class MyCalculator_lv2 {
   private List<Integer> results = new ArrayList<>();
 
   public int calculate(int num1, int num2, String operator) throws ArithmeticException
