@@ -40,6 +40,9 @@ public class MyCalculator_lv2 {
 
   public void removeResult()
   {
-    results.remove(0);
+    if (!results.isEmpty())
+      results.remove(0);
+    else
+      System.out.println("삭제할 데이터가 없습니다.");
   }
 }
